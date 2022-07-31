@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: left;
+    margin: 50px;
+    color: rgb(19,93,79);
+    font-family: 'Inter', sans-serif;
+    letter-spacing: .5em;
+}
+
+body {
+    background-color: rgb(255,232,228);
+}
+
+ol li {
+    text-align: center;
+    color: rgb(19,93,79);
+    line-height: 1.5em;
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    padding: 0px;
+}
+.flash {
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.images {
+   display: flex;
+   flex-wrap: wrap-reverse;
+   justify-content: center;
+   position: relative;
+   padding: 2em;
+}
+
+
+#hiddenHand {
+    position: absolute;
+    visibility: hidden;
+    height: 15em;
+    width: 15em;
+    transform: rotate(180deg);
+    margin-left: 26em;
+    margin-top: -24em;
+    /* margin-top: -10em; */
+
+    /* margin-top: -24em; */
+    /* margin-top: -8.5em; */
+}
+#handButton:hover {
+    cursor: pointer;
+    box-shadow: 5px 10px rgb(19,93,79);
+}
+
+/* @keyframes hiddenHand {
+    from {margin-top: -24em;}
+    to {margin-top: -8.5em;}
+    from {display: none;}
+    to {display: content;}
+    
+} */
+
+#dazecamLogo {
+    height: 30em;
+    width: 30em;
+    margin: auto;
+}
+
+#handButton {
+    font-weight: bolder;
+    font-size: 24px;
+    border-radius: 30px;
+    background-color: rgb(238,128,132);
+    font-family: 'Inter', sans-serif;
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-left: 15px;
+    padding-left: 15px;
+    margin-left: 2em;
+
+    /* margin-left: -500px; */
+}
+
+.material-symbols-outlined {
+    color: rgb(19,93,79);
+    margin: 10px;
+    font-size: 60px;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.fa {
+    color: rgb(19,93,79);
+    margin: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+#link {
+    text-decoration: none;
+    color: rgb(19,93,79);
+}
