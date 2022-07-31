@@ -43,7 +43,7 @@ a {
 }
 .images {
    display: flex;
-   flex-wrap: wrap-reverse;
+   /* flex-wrap: wrap-reverse; */
    justify-content: center;
    position: relative;
    padding: 2em;

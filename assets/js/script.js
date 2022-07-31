@@ -33,3 +33,7 @@ function moveHand() {
 }
 
 handButton.addEventListener('click', moveHand);
+
+function hideHand() {
+    hiddenHand.setAttribute('style', 'visibility: hidden;');
+}
