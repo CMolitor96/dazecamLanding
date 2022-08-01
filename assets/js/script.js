@@ -23,6 +23,7 @@ function moveHand() {
             var flash = document.querySelector('.flash');
             flash.setAttribute('style', 'visibility: visible;');
             flash.setAttribute('style', 'visibility: hidden;');
+            hiddenHand.setAttribute('style', 'visibility: hidden;');
             window.location.href = "https://apps.apple.com/us/app/daze-cam/id1464359734?itsct=apps_box_link&itscg=30200";
         } else {
             pos++;
